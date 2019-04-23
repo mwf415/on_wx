@@ -2,7 +2,7 @@
 <navigator url="../picturesContent/picturesContent?id={{imgs.id}}"
 wx:if="{{imgs.typeImg!=''}}">
 <view class="news-view pic">
-   <image src="https://d2.jeecms.com{{imgs.typeImg}}"  class="pic-img"/>
+   <image src="http://demo.jeecms.com{{imgs.typeImg}}"  class="pic-img"/>
     <text class="pic-title">{{imgs.title}}</text>
       <view class="pos">
                 <view class="news-time">{{imgs.releaseDate}}</view>

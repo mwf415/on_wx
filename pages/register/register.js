@@ -18,7 +18,7 @@ Page({
   add:function(){
     var self=this;
     wx.request({//用户名是否唯一
-      url: 'https://d2.jeecms.com/api/front/username_unique',
+      url: 'http://demo.jeecms.com/api/front/username_unique',
       data: {
         username:self.data.regInfo.username
       },
